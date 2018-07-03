@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../todoList/asserts/lib/bootstrap/css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class = 'container'>
+        <div class='form-group'>
+            <h2 id="toDo" class="text-primary text-center">To Do List
+                <small class='text-success'>
+                    <em>make yourself comfortable</em>
+                </small>
+            </h2>
+        </div>
+
+        <div class='form-group has-error '>
+            <input type="text" id="activity" name ='txt' class="form-control" placeholder="Title..">
+            <span>
+                <small class='error'></small>
+            </span>
+        </div>
+        <div class='form-group'>
+            <button type="button" id="addlist" class="toadd btn btn-success">ADD LIST</button>
+        </div>
+        <div class='form-group'>
+            <ul id="list" class='list-group'>
+
+
+            </ul>
+        </div>
+    </div>
+    <script src="../todoList/asserts/lib/jquery-3.3.1.min.js"></script>
+    <script src="../todoList/asserts/lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src='../todoList/asserts/js/toDo.js'></script>
+</body>
+
+</html>
